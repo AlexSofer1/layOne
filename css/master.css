@@ -1,0 +1,28 @@
+header,section,footer{
+    border: 5px solid black;
+    height: 330px;
+}
+
+section{
+    
+    width: 48.75%;
+    float: left;
+}
+
+footer,header{
+clear: both;
+}
+@media only screen and (max-width: 600px){
+    section{
+        width: 100%;
+    }
+}
+@media (min-width:601px) and (max-width:900px){
+    section{
+        width: 48%;
+    }
+}
+@media (min-width:901px) and (max-width:1300px) {
+    section{
+        width: 45%;
+    }
